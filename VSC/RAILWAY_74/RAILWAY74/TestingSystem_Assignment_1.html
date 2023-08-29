@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <!-- Exercise 1 Hello world-->
+                <!-- Question 1 -->
+                <h1>Hello World</h1>
+                <p>My frist paragraph</p>
+
+        <!-- Exercise 2 Body HTML -->
+                <!-- Question 1 -->
+                <h1>Đây là thẻ h1</h1>
+                <h2>Đây là thẻ h2</h2>
+                <h3>Đây là thẻ h3</h3>
+                <h4>Đây là thẻ h4</h4>
+                <h5>Đây là thẻ h5</h5>
+                <h6>Đây là thẻ h6</h6>
+                <!-- Question 2 -->
+                <h2>DANH SÁCH LỚP HỌC</h2> 
+                <ol>
+                <li>    Nguyễn Ngọc Duy</li>
+                <li>    Tống Quang Anh</li>
+                <li>    Đinh Thu Loan</li>
+                <li>    Hà Văn Tiến</li>
+                <li>    Nguyễn Hải Đăng</li>
+                <li>    Nguyễn Tiến Quang</li>
+                <li>    Nguễn Văn Chiến</li>
+                </ol>
+
+                <h2>    A list in a list in a list </h2>
+                <ul>
+                <li>    Coffe  </li>
+                <li>    Tea    </li>
+                <ul>   
+                <li>    Black tea </li>
+                <li>    Green tea </li>
+                <ul>
+                <li>    China   </li>
+                <li>    Africa  </li>
+                </ul>
+                </ul>
+                <li>    Milk    </li>    
+                </ul>
+
+                <ol>
+                 
+                 <li>   Cơm trưa </li>
+                 <ul> 
+                 <li>   Cơm chiên hải sản </li>
+                 <li>   Cơm sườn non nấu cam </li>
+                 <li>   Cơm canh chua cá lóc </li>
+                </ul>
+
+                
+                 <li>   Tráng miệng trái cây</li>
+                 <ul>
+                 <li>   Nho tươi</li>
+                 <li>   Chuối</li>
+                 <li>   Mận</li>
+                </ul>
+                </ol>
+                <!-- Question 3 -->
+                <b>This text is bold</b> <br>
+                <i>This text is italic</i> <br>
+                <p>This is <sub>subscript</sub> and <sup>superscript</sup></p>
+                <p>This text is normal</p>
+                <em>This text is emphasized</em>
+                <h2>HTML <small>Small</small> Formatting</h2>
+                <h1>HTML <mark>Marked</mark> Formatting</h1>
+                <p>The del element represent deleted (removed) text <br>
+                    My favorite color is <del>blue</del> red</p>
+                <p>The ins element represent inserted (added) text<br>
+                    My favorite color is <ins>blue</ins> red</p>   
+                 <!-- Question 4 --> 
+                <h1>Register</h1>
+                <em>Please <b>fill in this form</b> to create an account</em>
+                <form action="">
+                    <label for="fullName">Full name</label>
+                    <b style="color: red;">*</b><br>
+                    <input type ="text" placeholder="Input your fullname..." required><br><br>
+                    
+                    <label for="userName">Username</label>
+                    <b style="color: red;">*</b><br>
+                    <input type ="text" placeholder="Input your username..." required><br><br>
+                    
+                    <label for="pwd">Password</label>
+                    <b style="color: red;">*</b><br>
+                    <input type ="password" placeholder="Input your password..." required><br><br>
+                    
+                    <label for="email">Email</label>
+                    <b style="color: red;">*</b><br>
+                    <input type ="email" placeholder="Input your email..." required><br><br>
+                    
+                    <label for="phone">Telephone number</label>
+                    <b style="color: red;">*</b><br>
+                    <input type ="tel" placeholder="Input your phone number..." required><br><br>
+                    
+                    <label for="iObject">Input Object</label><br>
+                    <input type ="radio" value="student"> 
+                    <label for="student">Student</label>
+                    <input type ="radio"value = "teacher">
+                    <label for="teacher">Teacher</label><br><br>
+                    
+                    <label for="favorite">Favorite</label><br>
+                    <input type ="checkbox" value="badminton"> 
+                    <label for="badminton">Badminton</label>
+                    <input type ="checkbox"value = "volleyball">
+                    <label for="volleyball">Volleyball</label>
+                    <input type ="checkbox" value="football"> 
+                    <label for="football">Football</label><br><br>
+
+                    <label for="address">Address</Address></label>
+                    <b style="color: red;">*</b><br>
+                    <input list="address">
+                    <datalist id="address">
+                        <option value="Binh Duong" selected>Bình Dương</option>
+                        <option value="Binh Dinh">Bình Định</option>
+                        <option value="Bac Giang">Bắc Giang</option>    
+                    </datalist><br><br>
+
+                    <label for="birthday">Birthday</label>
+                    <b style="color: red;">*</b><br>
+                    <input type="date"><br><br>
+
+                    <label for="picture">Your picture</label>
+                    <b style="color: red;">*</b><br>
+                    <input type="file"value= "Choose File"><br><br>
+
+                    <input type="submit"value="Đăng ký">
+
+                </form>
+ <!-- Exercise 3 CSS -->
+                <!-- Question 1 -->
+ <style>
+    h1 {
+        color: blue;
+    }
+    h3{
+        color: red;
+    }
+
+ </style>
+
+                <!-- Question 2 -->
+        
+        
+        <h3 style="background-color: red; color: black;"><b>Tomato</b></h3>
+        <h3 style="background-color: orange; color: black;"><b>Orange</b></h3>    
+        <h3 style="background-color: dodgerblue; color: black;"><b>DodgerBlue</b></h3>    
+        <h3 style="background-color: mediumseagreen; color: black;"><b>MediumSeaGreen</b></h3>    
+        <h3 style="background-color: gray; color: black;"><b>Gray</b></h3>    
+        <h3 style="background-color: slateblue; color: black;"><b>SlateBlue</b></h3>    
+        <h3 style="background-color: violet; color: black;"><b>Violet</b></h3>    
+        <h3 style="background-color: lightgray; color: black;"><b>LightGray</b></h3>    
+
+        <h4 style="border-color: red;border-style: solid;"><b>Hello World</b></h4>
+        <h4 style="border-color: blue;border-style: solid;"><b>Hello World</b></h4>
+        <h4 style="border-color: violet;border-style: solid;"><b>Hello World</b></h4>
+         
+       <!-- Question 3 -->  
+    <div>
+       <table >
+        <tr>
+        <th>Họ và Tên</th>
+        <th>Ngày Sinh</th>
+        <th>Giới Tính</th>
+        </tr>
+        <tr>
+        <td>Trần Anh Đức</td>
+        <td>03/08/1993</td>
+        <td>Nam</td>
+        </tr>
+        <tr>
+        <td>Kiều Thị Thu Hằng</td>
+        <td>04/09/1991</td>
+        <td>Nữ</td>
+        </tr>
+        <tr>
+        <td>Vương Thị Lê Na</td>
+        <td>06/10/1991</td>
+        <td>Nữ</td>
+        </tr>
+    </table>
+</div><br><br>
+
+<div>
+    <table >
+        <tr>
+            <th rowspan="2">STT</th>
+            <th rowspan="2">Họ và Tên</th>
+            <th colspan="2">Giới tính</th>
+            <th rowspan="2">Chức vụ</th>
+        </tr>
+        <tr>
+            <th >Nam</th>
+            <th >Nữ</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Trần Anh Đức</td>
+            <td>X</td>
+            <td></td>
+            <td>Lớp Trưởng</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Kiều Thị Thu Hằng</td>
+            <td></td>
+            <td>X</td>
+            <td>Lớp Phó</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Vương Thị Lê Na</td>
+            <td></td>
+            <td>X</td>
+            <td>Tổ viên</td>
+        </tr>
+    </table>
+</div><br><br>
+
+<div>
+    <table>
+        <tr>
+            <th >STT</th>
+            <th style="text-align: center;">Họ và Tên</th>
+            <th style="text-align: center;">GVHD</th>
+            <th >Lịch gặp GVHD</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Nguyễn Lê Thu Trang</td>
+            <td rowspan="3">Th.S Hồ Sỹ Tuy Đức</td>
+            <td rowspan="3">08/03/2018</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Nguyễn Thị Diễm</td>   
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Phạm Thị Hồng Đào</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Nguyễn Thị Kim Sa</td>
+            <td rowspan="2">Th.S Phạm Thị Huyền Quyên</td>
+            <td rowspan="2">05/03/2018</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Lê Thị Trang</td>
+        </tr>
+
+    </table>
+</div><br><br>
+
+<div>
+    <table>
+        <tr>
+            <th colspan="2" style="text-align: center;">Bảng điểm lớp 9B</th>
+            <th rowspan="2"style="text-align: center;">Toán</th>
+            <th rowspan="2"style="text-align: center;">Lí</th>
+            <th rowspan="2"style="text-align: center;">Hóa</th>
+        </tr>
+        <tr>
+            <th>STT</th>
+            <th style="text-align: center;">Họ Tên</th>
+            
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Trần Đức Anh</td>
+            <td>8.5</td>
+            <td>3.0</td>
+            <td>7.75</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Kiều Thị Thu Hằng</td>
+            <td>10</td>
+            <td>9.25</td>
+            <td>5.75</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Vương Thị Lê Na</td>
+            <td>2.25</td>
+            <td>6.0</td>
+            <td>7.75</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="4">Điểm Trung bình cả lớp</td>
+            
+        </tr>
+    </table>
+</div><br><br>
+
+
+    <style>
+        div {  
+            margin: 10px;
+            display: flex;
+            justify-content: center; /* Căn giữa theo chiều ngang */
+            align-items: center; /* Căn giữa theo chiều dọc */
+        }
+        table, td, th {  
+          border: 1px solid #ddd;
+          text-align: left;
+        }
+    </style>
+<!-- Exercise 4 Demo Project -->
+        <!-- Question 1 -->
+        <h1>Nộp CV thành tích quá khủng, cô gái bị thất nghiệp không hiểu lý do</h1>
+        <div>
+        <div style="text-align: left;">VÂN TRANG</div><div>19:06 02/06/2020</div></div>
+        Đi làm rồi mới thấy muôn kiểu lý do từ chối ứng viên. Năng lực kém chắc chắn không được nhưng người giỏi quá đôi khi cũng không nhận vào làm nốt.
+
+        Đem CV ứng viên ra trêu đùa, nhà tuyển dụng nhận trái đắng 
+        Ứng viên chửi bới, nhà tuyển dụng bị dân tình soi ra lỗi kinh điển rất dễ mắc: Người trong cuộc đưa ra lời giải thích 
+        Nữ sinh tức tối bị nhà tuyển dụng lật kèo hủy lịch phút chót, dân mạng soi ra chi tiết bất thường mà công ty nào cũng hay xài 
+        Sinh viên tốt nghiệp là những ngươi đang đứng trước ngưỡng cửa thị trường lao động, là thế hệ trẻ nhất, được kì vọng nhiều nhất bởi sự năng động, nhạy bén và sáng tạo. Thế nhưng liệu họ có thể đáp ứng được những đòi hỏi của công việc trong môi trường thực tế gấp rút, nhiều áp lực hay không lại là một vấn đề không thể kết luận được.
+        
+        Thực tế có rất nhiều nguyên nhân khiến người trẻ thất nghiệp. Có vô số lý do từ hiển nhiên cho đến vô cùng khó hiểu như đòi hỏi quá cao, không chấp nhận mức lương thấp, thích việc nhẹ nhàng, ngại đi xa, cộng thêm thiếu kỹ năng mềm, giao tiếp bằng tiếng Anh kém... Tuy nhiên thất nghiệp vì quá giỏi như cô nàng dưới đây lại khá hiếm.
+
+        Cụ thể, cô nàng V.P chia sẻ trê một group khá có tiếng chuyên tìm việc làm cho dân văn phòng và sinh viên:
+
+"Mình hiện tại thất nghiệp được gần 3 tháng và hiện tại rất hoang mang. Mình tốt ngiệp Đại học với tấm bằng loại giỏi và vừa ra trường đã đỗ vào một tập đoàn nước ngoài khá có tiếng với vị trí Nhân viên Hành chính. Làm tầm được 2 năm, mình lại chuyển sang một tập đoàn lớn ở Việt Nam vào vị trí Chuyên viên giám sát vể mảng quản lý kho bãi, công việc này có thể giúp mình học hỏi và trau dồi thêm nhiều kỹ năng mềm.
+
+Đang yên đang lành, tự dưng dịch đến làm công ty mình phải cho nhân viên nghỉ vì thị trường chủ yếu là Mỹ. Mình nghỉ việc từ tháng 3, nhưng điều đáng nói là từ đó đến nay, mình không thể xin được bất kỳ công ty nào nữa.
+
+
+Những công ty vừa và lớn ở chỗ mình vì đang dịch nên không tuyển dụng nhân sự. Mình nộp vào công ty tư nhân, quy mô nhỏ nhưng đi phỏng vấn lại không đỗ, tất cả đều đưa ra lý do bởi kinh nghiệm làm việc và kỹ năng của mình tạo cảm giác cho họ suy nghĩ mình chỉ xin việc ở chỗ họ một thời gian tạm bợ và sẽ không gắn bó lâu dài. Mặc dù mình đã ra sức thuyết phục rằng đang rất cần việc và sẽ sẵn sàng gắn bó lâu dài nếu công ty có chế độ và phúc lợi tốt. Tuy nhiên, tất cả đều bặt vô âm tín.
+
+Đã ba tháng trôi qua và nếu tình hình cứ thế này thì thực sự mình sẽ bế tắc mắt. Cơ hội việc làm cứ nhỏ giọt và không được như vậy. Sau gần 5 năm làm việc tại các công ty lớn, lần đầu mình trải qua cảm giác lo lắng tột độ vì thất nghiệp. Từ một người tự tin đi đâu cũng đỗ vậy mà cả công ty từ lớn đến bé đều chối bỏ mình. Ngoài khả năng chuyên môn, mình còn khả năng viết lách, giờ muốn nhân dịp này xuất bản sách nhưng cũng chẳng còn tâm trạng nữa".
+
+Dòng tâm sự của cô gái này đã nhận về nhiều đồng cảm của cộng đồng mạng. Thực tế, tình trạng thất nghiệp mùa dịch không hề hiếm khi hàng loạt công ty đã phải tuyên bố phá sản. Nhiều người cũng ngậm ngùi chia sẻ chỉ nhận được 1/2 hay thậm chí 1/3 mức lương cũ khi apply hậu mùa dịch.
+
+"Nếu mình là CEO 1 công ty nhỏ thì cũng không tuyển bạn thật bởi trình độ và năng lực của bạn không hợp. Công ty nhỏ cũng có cái khó và mục tiêu riêng của nó. Nhận bạn vào không khéo năng lực của bạn còn cao hơn cả sếp", bạn H.T bình luận.
+
+"Bạn chỉ cần hạ mình, giấu đỡ kinh nghiệm thực tế thì không lo thất nghiệp. Quan trọng là bạn có chấp nhận làm không thôi", bạn A.B chia sẻ.
+
+"Quan trọng là tư tưởng của bạn có chịu làm những công việc mà khởi đầu rất thấp không. Như mình giờ chỉ xin đi làm công ty lương bằng nửa lương cũ cho sống qua mấy ngày khó khăn này. Đừng tỏ ra quá tự tin hay tham vọng khi phỏng vấn, HR thấy giỏi quá không cho vào làm đâu", bạn L.M chia sẻ.
+
+Đúng là khi đi làm mới thấy muôn kiểu không nhận ứng viên. Kém quá chắc chắn không đươc nhưng giỏi quá cũng chưa chắc được nhận. Về phần cô nàng trong câu chuyện trên thì tin mừng là sau khi bài viết đăng tải, một vài nơi đã liên hệ với V.P để phỏng vấn. Hi vọng với năng lực sẵn có của mình, cô nàng sẽ đem lại lợi nhuận giúp khắc phục tổn hại kinh tế cho công ty.
+
+Ứng viên hỏi JD bỗng không muốn trả lời, nhà tuyển dụng còn mắng xối xả "đồ vô học": Lời giải thích khiến ai cũng giận tím người!
+        <!-- Question 2 -->
+<h1 style="color: black;">Assignment 1 :</h1>
+<div>
+    <table>
+        <tr>
+            <th style="text-align: center;">Exercise</th>
+            <th style="text-align: center;">Link</th>
+        </tr>
+        <tr>
+            <td >Exercise 1</td>
+            <td><a href="https://www.w3schools.com">Question 1</a></td>
+        </tr>
+        <tr>
+            <td rowspan="4">Exercise 2</td>
+            <td><a href="https://www.w3schools.com">Question 1</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.w3schools.com">Question 2</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.w3schools.com">Question 3</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.w3schools.com">Question 4</a></td>
+        </tr>
+        <tr>
+            <td rowspan="3">Exercise 3</td>
+            <td><a href="https://www.w3schools.com">Question 1</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.w3schools.com">Question 2</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.w3schools.com">Question 3</a></td>
+        </tr>
+        <tr>
+            <td rowspan="2">Exercise 4</td>
+            <td><a href="https://www.w3schools.com">Question 1</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.w3schools.com">Question 2</a></td>
+        </tr>
+
+    </table>
+</div><br><br>
+        
+
+
+</body>
+</html>
