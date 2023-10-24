@@ -1,0 +1,22 @@
+.acctive-link{
+background-color: #007bff !important;
+color: aliceblue !important;
+}
+
+.input{
+    border-radius: 0.25rem !important;
+    height: 32px;
+    font-size: small;
+}
+
+  #main-menu ul.submenu a  {
+    padding: 4px 8px 4px 60px ; /* Thay đổi độ cao bằng cách điều chỉnh giá trị padding */
+    border-bottom: 1px solid #908989 ; /* Thêm viền bên dưới với độ rộng và màu sắc tùy chọn */
+  }
+
+  #main-menu i.ti-angle-down{
+    padding-left: 10px;
+    color: #908989;
+    font-weight: 100;
+    font-size: 10px;
+  }
